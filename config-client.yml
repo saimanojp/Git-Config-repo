@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8080
+      enabled: true
+      
+  application:
+    name: config-client
+    
+welcome:
+  message: Hello World!!
+  
+server:
+  port: 8082
